@@ -67,8 +67,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname'])) {
             <div class="container">
                <div class="col-md-12">
                   <div class="feature-post">
-                     
-                  <iframe allowfullscreen="" controls="0" autoplay="0" width="850" height="480" scrolling="no" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" src="https://tv.uctnew.com/hembedplayer/webcricn02/3/850/480"></iframe>
+                  <iframe allowfullscreen="true" controls="0" autoplay="0" width="850" height="480" scrolling="no" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" src="https://www.youtube.com/embed/Zafhz4SRx1s" title="YouTube video player" ></iframe>
+                  <!-- <iframe allowfullscreen="" controls="0" autoplay="0" width="850" height="480" scrolling="no" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" src="https://tv.uctnew.com/hembedplayer/webcricn02/3/850/480"></iframe> -->
     <script id="cid0020000325016124116" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 239px;height: 485px;">{"handle":"funolympics","arch":"js","styles":{"a":"CC0000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"CC0000","l":"CC0000","m":"CC0000","n":"FFFFFF","p":"10","q":"CC0000","r":100,"fwtickm":1}}</script>
                                       
                   </div>                

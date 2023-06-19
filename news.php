@@ -119,7 +119,7 @@
                   </div>
                   <aside id="sidebar" class="right-bar">
                      <div class="banner">
-                        <img class="img-responsive" src="images/adds-3.jpg" alt="#">
+                        <img class="img-responsive" src="images/bg1.png" alt="#">
                      </div>
                   </aside>
                </div>
@@ -133,7 +133,7 @@
                   <div class="full">
                      <div class="footer-widget">
                         <div class="footer-logo">
-                           <a href="#"><img src="images/footer-logo.png" alt="#" /></a>
+                           <a href="#"><img src="images/logo.png" alt="#" /></a>
                         </div>
                         <p>Most of our events have hard and easy route choices as we are always keen to encourage new riders.</p>
                         <ul class="social-icons style-4 pull-left">

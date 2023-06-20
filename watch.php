@@ -18,7 +18,49 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname'])) {
    <link rel="stylesheet" href="css/responsive.css">
    <!-- Custom CSS -->
    <link rel="stylesheet" href="css/custom.css">
-     </head>
+
+   <style>
+
+      .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      }
+
+      .dropdown {
+      position: relative;
+      display: flex;
+      margin-left:10%;
+      }
+
+      .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: grey;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      }
+
+      .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      }
+
+      .dropdown-content a:hover {background-color: #ddd;}
+
+      .dropdown:hover .dropdown-content {display: block;}
+
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+   </style>
+
+
+   </head>
+
    <body class="game_info" data-spy="scroll" data-target=".header">
       <!-- LOADER -->
       <div id="preloader">
@@ -47,16 +89,22 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname'])) {
          </div>
       </section>  
       <section id="contant" class="contant main-heading team">
+         <div class="dropdown">
+            <button class="dropbtn">Select Channel</button>
+            <div class="dropdown-content">
+               <a id="channel-1" href='javascript:;' onclick='channel();' >Channel 1</a>
+               <a id="channel-2">Channel 2</a>
+               <a id="channel-3>">Channel 3</a>
+            </div>
+         </div>
          <div class="row">
             <div class="container">
                <div class="col-md-12">
                   <div class="feature-post">
-                  <!-- Youtube live -->
-                  <!-- <iframe allowfullscreen="true" controls="0" autoplay="0" width="850" height="480" scrolling="no" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" src="https://www.youtube.com/embed/Zafhz4SRx1s" title="YouTube video player" ></iframe> -->
                   
-                  <iframe src="//stream.crichd.vip/update/wwe.php"allowfullscreen="true" controls="0" autoplay="0" width="850" height="480" scrolling="no" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" allow="encrypted-media"></iframe>
+                  <iframe id="iframe" src="//stream.crichd.vip/update/wwe.php"allowfullscreen="true" controls="0" autoplay="0" width="850" height="480" scrolling="no" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" allow="encrypted-media"></iframe>
                   
-    <script id="cid0020000325016124116" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 239px;height: 485px;">{"handle":"funolympics","arch":"js","styles":{"a":"CC0000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"CC0000","l":"CC0000","m":"CC0000","n":"FFFFFF","p":"10","q":"CC0000","r":100,"fwtickm":1}}</script>
+                   <script id="cid0020000325016124116" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 239px;height: 485px;">{"handle":"funolympics","arch":"js","styles":{"a":"CC0000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"CC0000","l":"CC0000","m":"CC0000","n":"FFFFFF","p":"10","q":"CC0000","r":100,"fwtickm":1}}</script>
                                       
                   </div>                
                 
@@ -126,6 +174,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname'])) {
          </div>
       </footer>
       <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+
       <!-- ALL JS FILES -->
       <script src="js/all.js"></script>
       <!-- ALL PLUGINS -->

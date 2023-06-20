@@ -20,7 +20,7 @@ myheader.innerHTML = `<div class="header-bottom">
                                     <li><a href="about.php">About</a></li>
                                     <li><a href="team.php">Team</a></li>
                                     <li><a href="news.php">News</a></li>                                    
-                                    <li><a href="watch.php">Games</a></li>
+                                    <li><a href="watch.php">Watch Live</a></li>
                                     <li><a href="contact.php">contact</a></li>
                                  </ul>
                               </div>

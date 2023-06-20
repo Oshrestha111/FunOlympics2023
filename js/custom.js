@@ -1,6 +1,16 @@
-/******************************************
-    File Name: custom.js
-/****************************************** */
+// let channel1 = document.getElementById("channel-1");
+// let channel2 = document.getElementById("channel-2");
+// let channel3 = document.getElementById("channel-3");
+
+// let iframe = document.querySelector("#iframe");
+
+// function channel() {
+//   channel1.addEventListener("click", () => {
+//     console.log("hello");
+//     //   iframe.src = "//stream.crichd.vip/update/star.php";
+//     iframe.setAttribute("src", "//stream.crichd.vip/update/star.php");
+//   });
+// }
 
 (function ($) {
   "use strict";

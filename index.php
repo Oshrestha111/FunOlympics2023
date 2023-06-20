@@ -8,33 +8,15 @@ session_start();
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <!-- Mobile Metas -->
    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-   <!-- Site Metas -->
-   <title>Game Info</title>
-   <meta name="keywords" content="">
-   <meta name="description" content="">
-   <meta name="author" content="">
-   <!-- Site Icons -->
-   <link rel="shortcut icon" href="" type="image/x-icon" />
-   <link rel="apple-touch-icon" href="">
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <!-- Site CSS -->
    <link rel="stylesheet" href="style.css">
-   <!-- Colors CSS -->
-   <link rel="stylesheet" href="css/colors.css">
-   <!-- ALL VERSION CSS -->	
-   <link rel="stylesheet" href="css/versions.css">
    <!-- Responsive CSS -->
    <link rel="stylesheet" href="css/responsive.css">
    <!-- Custom CSS -->
    <link rel="stylesheet" href="css/custom.css">
-   <!-- font family -->
-   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-   <!-- end font family -->
-   <link rel="stylesheet" href="css/3dslider.css" />
-   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-   <script src="js/3dslider.js"></script>
+   
    </head>
    <body class="game_info" data-spy="scroll" data-target=".header">
 
@@ -111,6 +93,7 @@ session_start();
                      <span><?=$res['date']?>/<?=$res['time']?></span>
                      <span><?=$res['venue']?></span>
                      <?php } ?>
+                    
                   </div>
 
                </div>
@@ -308,7 +291,7 @@ session_start();
          <div class="container">
             <div class="main-heading-holder">
                <div class="main-heading sytle-2">
-                  <h2>Meet Your Team</h2>
+                  <h2>Meet the Team</h2>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium<br>doloremque laudantium, totam rem aperiam</p>
                </div>
             </div>
@@ -411,7 +394,7 @@ session_start();
                         <ul class="address-list">
                            <li><i class="fa fa-map-marker"></i> Lorem Ipsum is simply dummy text of the printing..</li>
                            <li><i class="fa fa-phone"></i> 123 456 7890</li>
-                           <li><i style="font-size:20px;top:5px;" class="fa fa-envelope"></i> demo@gmail.com</li>
+                           <li><i style="font-size:20px;top:5px;" class="fa fa-envelope"></i> funOlympics@gmail.com</li>
                         </ul>
                      </div>
                   </div>
@@ -433,7 +416,7 @@ session_start();
       </footer>
       <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
       <!-- ALL JS FILES -->
-      <script src="js/all.js"></script>
+      <!-- <script src="js/all.js"></script> -->
       <!-- ALL PLUGINS -->
       <script src="js/custom.js"></script>
       <script src="js/header.js"></script>

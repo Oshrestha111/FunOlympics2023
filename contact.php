@@ -7,25 +7,16 @@
    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
    <!-- Site Metas -->
    <title>Game Info</title>
-   <meta name="keywords" content="">
-   <meta name="description" content="">
-   <meta name="author" content="">
+
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <!-- Site CSS -->
    <link rel="stylesheet" href="style.css">
-   <!-- Colors CSS -->
-   <link rel="stylesheet" href="css/colors.css">
-   <!-- ALL VERSION CSS -->	
-   <link rel="stylesheet" href="css/versions.css">
    <!-- Responsive CSS -->
    <link rel="stylesheet" href="css/responsive.css">
    <!-- Custom CSS -->
    <link rel="stylesheet" href="css/custom.css">
-   <!-- font family -->
-   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-   <!-- end font family -->
-   <link rel="stylesheet" href="css/3dslider.css" />
+   
    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
    <script src="js/3dslider.js"></script>
@@ -84,7 +75,7 @@
                               </li>
                               <li>
                                  <i class="fa fa-envelope-o"></i> 
-                                 <p><strong>Email:</strong> Info@sportyleague.com</p>
+                                 <p><strong>Email:</strong> Info@funolympics.com</p>
                               </li>
                            </ul>
                         </div>
@@ -151,7 +142,7 @@
                         <ul class="address-list">
                            <li><i class="fa fa-map-marker"></i> Lorem Ipsum is simply dummy text of the printing..</li>
                            <li><i class="fa fa-phone"></i> 123 456 7890</li>
-                           <li><i style="font-size:20px;top:5px;" class="fa fa-envelope"></i> demo@gmail.com</li>
+                           <li><i style="font-size:20px;top:5px;" class="fa fa-envelope"></i> funolympics@gmail.com</li>
                         </ul>
                      </div>
                   </div>

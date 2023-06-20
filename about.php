@@ -7,31 +7,16 @@
    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
    <!-- Site Metas -->
    <title>Game Info</title>
-   <meta name="keywords" content="">
-   <meta name="description" content="">
-   <meta name="author" content="">
-   <!-- Site Icons -->
-   <link rel="shortcut icon" href="" type="image/x-icon" />
-   <link rel="apple-touch-icon" href="">
+   
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <!-- Site CSS -->
    <link rel="stylesheet" href="style.css">
-   <!-- Colors CSS -->
-   <link rel="stylesheet" href="css/colors.css">
-   <!-- ALL VERSION CSS -->	
-   <link rel="stylesheet" href="css/versions.css">
    <!-- Responsive CSS -->
    <link rel="stylesheet" href="css/responsive.css">
    <!-- Custom CSS -->
    <link rel="stylesheet" href="css/custom.css">
-   <!-- font family -->
-   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-   <!-- end font family -->
-   <link rel="stylesheet" href="css/3dslider.css" />
-   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-   <script src="js/3dslider.js"></script>
+   
    </head>
    <body class="game_info" data-spy="scroll" data-target=".header">
       <!-- LOADER -->
@@ -59,7 +44,7 @@
                   <div class="col-md-12 col-sm-12">
                      <div class="col-md-7 col-sm-7 col-xs-12">
                         <div class="full">
-                           <h3>SPORTY LEAGUE HISTORY</h3>
+                           <h3>FunOlympics HISTORY</h3>
                            <p>Voluptate illum dolore ita ipsum, quid deserunt singulis, labore admodum ita multos malis ea nam nam tamen fore amet.
                               Vidisse quid incurreret ut ut possumus transferrem si ita labore dolor si appellat, aut dolore doctrina. Commodo dolor 
                               esse in magna, a a multos senserit nam si aliqua iis multos..
@@ -125,11 +110,11 @@
                            </div>
                            <!-- Bottom Carousel Indicators -->
                            <ol class="carousel-indicators">
-                              <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
+                              <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="./images/people1.png" alt="famous person 1">
                               </li>
-                              <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+                              <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="./images/people2.png" alt="famous person 2">
                               </li>
-                              <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                              <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="./images/people3.png" alt="famous person 3">
                               </li>
                            </ol>
                            <!-- Carousel Buttons Next/Prev -->
@@ -183,7 +168,7 @@
                         <ul class="address-list">
                            <li><i class="fa fa-map-marker"></i> Lorem Ipsum is simply dummy text of the printing..</li>
                            <li><i class="fa fa-phone"></i> 123 456 7890</li>
-                           <li><i style="font-size:20px;top:5px;" class="fa fa-envelope"></i> demo@gmail.com</li>
+                           <li><i style="font-size:20px;top:5px;" class="fa fa-envelope"></i> funOlympics@gmail.com</li>
                         </ul>
                      </div>
                   </div>

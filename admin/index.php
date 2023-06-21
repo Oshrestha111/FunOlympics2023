@@ -166,8 +166,7 @@ session_start();
                                             <th scope="col">Full Name</th>
                                             <th scope="col">Username</th>                                            
                                             <th scope="col">Delete</th>
-                                            
-                                            
+                                            <th scope="col"> Password</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -181,8 +180,10 @@ session_start();
                                             <td><?=$res['fname']?></td>
                                             <td><?=$res['username']?></td>
                                             
-                                            <td><button class="btn-danger btn"><a href="delete.php?id=<?=$res['id']?>">Delete</a></button></td>
-                                            </tr>
+                                            <td><button class="btn-light btn"><a href="delete.php?id=<?=$res['id']?>">Delete</a></button></td>
+                                            <td><button class="btn-light btn"><a href="reset.php?id=<?=$res['id']?>">Reset</a></button></td>
+
+                                    </tr>
                                         <?php }
                                         ?>
                                         

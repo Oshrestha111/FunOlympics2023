@@ -13,7 +13,10 @@ To run this project on your machine;
 1. STEP 1: Clone the Project or download it.
 2. STEP 2: Install the Xampp server and add the project in C:\xampp\htdocs. Here, Xampp is installed in the C drive.
 3. STEP 3: Open Xampp and run Apache and MySQL
-4. STEP 4: Go to http://localhost/FunOlympics2023-main/ on your browser (google chrome preferred)
+4. STEP 4: Go to http://localhost/phpmyadmin/
+5. STEP 4.1: Create a database named 'sign' 
+6. STEP 4.2: Import the db.sql file, which is our database, present in this project 
+7. STEP 5: Go to http://localhost/FunOlympics2023-main/ on your browser (google chrome preferred)
 
 **Voila!!! The website should be up and running.**
 
